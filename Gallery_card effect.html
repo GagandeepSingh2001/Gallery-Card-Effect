@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Card Animation</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            body{
+                background: linear-gradient(to right, #ff105f, #ffad06);
+            }
+
+            h1{
+                text-shadow: 5px 5px 10px blue;
+                font-family: cursive;
+                border-bottom: 10px solid violet;
+                width: fit-content;
+                border-radius: 50%;
+                padding: 10px;
+                border-top: 10px solid violet;
+            }
+
+            .gallery-card{
+                width: 60%;
+                height: 80%;
+                display: flex;
+                gap: 5px;
+            }
+
+            .gallery-card img{
+                width: 20%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                border: 2px solid white;
+                transition: all ease 0.3s;
+            }
+
+            .gallery-card img:hover{
+                width:100%;
+            }
+
+            /* .container{
+                display: flex;
+                width: 50%;
+            } */
+        </style>
+    </head>
+    <body>
+        <center><h1>Gallery Card Effect</h1></center><br>
+        <div class="container">
+        <div class="gallery-card">
+            <img src="monkey-d-luffy.jpg">
+            <img src="gtr r34.jpg" alt="">
+            <img src="thumb-1920-1059649.jpg" alt="">
+            <img src="boruto.png" alt="">
+            </div>
+        </div>
+    </body>
+</html>
